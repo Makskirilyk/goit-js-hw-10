@@ -38,6 +38,8 @@ function loadCatByBreed(breedId) {
 
   fetchCatByBreed(breedId)
     .then(cat => {
+      catImage.weight = "500px";
+
       catImage.alt = cat.breeds[0].name;
       catImage.src = cat.url;
       catBreed.textContent = cat.breeds[0].name;
