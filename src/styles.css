@@ -1,0 +1,33 @@
+.loader {
+    display: none;
+
+  }
+  
+  .error {
+    display: none;
+    
+  }
+  
+  .breed-select-container {
+    margin-bottom: 20px;
+  }
+  
+  .cat-info {
+    display: none;
+    margin-top: 20px;
+  }
+  
+  .cat-info img {
+    width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  .cat-info{
+    display: flex;
+  }
+  .cat-info-text{ 
+    font-size: 30px;
+    line-height: 1.3;
+   margin-left: 50px;
+    width: 500px;
+  }
